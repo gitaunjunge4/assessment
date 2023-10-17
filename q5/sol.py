@@ -28,6 +28,5 @@ def solution(text):
 
     return print(max_sentence.strip())
 
-solution(
-    ("A sentence can be divided into words by splitting it at spaces. A sentence without words is valid, but a valid word must contain at least one letter.")
-)
+text = "A sentence can be divided into words by splitting it at spaces. A sentence without words is valid, but a valid word must contain at least one letter."
+solution(text)
