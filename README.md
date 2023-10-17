@@ -1,12 +1,11 @@
 PHASE 4 ASSESSMENTS 
 
-- ABOUT
+    ABOUT
 
-    - Here you will find all my attempts for the 9 questions in preparation for the test on Thursday.
+    - This repository contains all my attempts for the questions in preparation for the test.
+    - Each question is in its own repository with their solutions in either .py or .js files together with their README's.
 
-    - This repository contains questions; each in their repository with their solutions in either .py or .js files together with theor README's.
-
-- AUTHOR
-    - Gitau Njung'e 
+    AUTHOR
+        - Gitau Njung'e 
 
 
