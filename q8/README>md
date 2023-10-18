@@ -4,3 +4,17 @@ Examples:
 1. Given S = "?ab??a", the function should return "aabbaa".
 2. Given S = "bab??a", the function should return "NO".
 3. Given S = "?a?", the function may return "aaa". It may also return "zaz", among other possible answers.
+
+input has ? that need to replace with a letter 'a'-'z'
+
+change the input to a list and also get the length
+init two pointers that will help you move from L-> R and R->L  L=0, R= Length -1
+iterate though the string from outer to inner as you moe towards the centre checking if:
+ - both ends have ? replace with a for easiest palindrome
+ - L has letter and R has no letter; set value of R = to L
+ - R has letter and L has no letter; set value of L = to R
+ - L != R print statement 'NO'
+
+if the len statement is odd and the middle value is ? set 'a' as the letter
+
+return as string
